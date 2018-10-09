@@ -1,0 +1,16 @@
+{
+  "name": "userDash",
+  "version": "0.0.1",
+  "private": true,
+  "author": "deval shilu",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon server.js | bunyan"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "nodemon": "^1.18.4",
+    "restify": "^4.2.0",
+    "restify-jwt-community": "^1.0.8"
+  },
+  "devDependencies": {}
+}
